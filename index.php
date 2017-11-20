@@ -18,7 +18,7 @@
 		$mail->CharSet ="utf-8";
 		$mail->Username = "ePosta Adresi"; // Kendi Alan Adınıza Kayıtlı Mail Adresi
 		$mail->Password = "Mail Password"; // Mail Adresi Şifreniz
-		$mail->SetFrom("admin@webinyo.com", "Savaş Dersim ÇELİK"); // Mail attigimizda yazacak isim
+		$mail->SetFrom("ePosta Adresi", "Savaş Dersim ÇELİK"); // Mail attigimizda yazacak isim
 		$mail->AddAddress($veri); // Maili gonderecegimiz kisi/ alici
 		$mail->Subject = "Toplu Mail Denemesi"; // Konu basligi
 		$mail->Body = "Bu Mail Deneme Amacı İle Atılmıştır."; // Mailin icerigi
